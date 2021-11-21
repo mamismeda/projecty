@@ -1,3 +1,7 @@
+*{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 header{
     background-image: url(https://cdn.pixabay.com/photo/2020/12/06/19/16/helicopter-5809773_960_720.jpg);
     background-position:center;
@@ -216,4 +220,59 @@ nav h3{
     .copter h1{
         font-size: 15px;
     }
+}
+.schedule{
+    text-align: center;
+    margin: 0 0 50px 0;
+    padding: 100px 250px 50px 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.schedule-div{
+    margin: 0 0 50px 0;
+}
+.schedule-div h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+.schedule-div p{
+    color: rgb(167, 163, 163);
+    padding: 0 100px;
+    width: 100%;
+}
+.pilots{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: sans-serif;
+}
+.simpson{
+    width: 15%;
+    padding: 20px;
+}
+.simpson img{
+    width: 100%;
+    border-radius: 50%;
+}
+.simspon-div {
+    width: 85%;
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+.simspon-div p{
+    color:grey;
+    font-size: 0.8rem;
+}
+.simspon-div h2{
+   margin: 10px 0 10px 0;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+.simspon-div h3{
+    color:grey;
+}
+.name{
+    color: steelblue;
 }
