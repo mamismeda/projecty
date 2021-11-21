@@ -3,8 +3,8 @@
     margin-block-end: 0;
 }
 header{
-    background-image: url(https://cdn.pixabay.com/photo/2020/12/06/19/16/helicopter-5809773_960_720.jpg);
-    background-position:center;
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/12/18/05/uh-60-black-hawk-3148826_960_720.jpg);
+    background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -227,6 +227,7 @@ nav h3{
     padding: 100px 250px 50px 250px;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(233, 230, 230);
 }
 .schedule-div{
     margin: 0 0 50px 0;
@@ -245,8 +246,10 @@ nav h3{
 .pilots{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 85%;
     font-family: sans-serif;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    background-color: #fff;
 }
 .simpson{
     width: 15%;
@@ -275,4 +278,46 @@ nav h3{
 }
 .name{
     color: steelblue;
+}
+.calendar{
+   width: 15%;
+   background-color: rgb(71, 69, 69);
+   padding: 10px 0 0 0;
+   font-family: sans-serif;
+   border-radius: 0 0 20px 0;
+}
+
+.calendar ol li{
+    margin: 0 0 10px 0;
+    font-size: 10px;
+    color: rgb(167, 163, 163);
+}
+.calendar a{
+    display: block;
+    font-size: 10px;
+    background-color: steelblue;
+    padding: 5px 5px;
+    border-radius: 0 0 20px 0;
+}
+ol span{
+    color: white;
+    display: inline-block;
+    margin-left: -15px;
+}
+#list{
+    display: inline-block;
+    color: white;
+}
+@media all and (max-width:1100px){
+    .schedule{
+        padding: 50px 125px 25px 125px;
+    }
+}
+@media all and (max-width:800px){
+    .schedule{
+        padding: 0;
+    }
+    .simpsons{
+        padding: 0;
+    }
 }
