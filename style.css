@@ -15,6 +15,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     color: white;
     font-family: sans-serif;
     border-bottom: 2px solid rgb(206, 199, 199);
@@ -66,7 +67,7 @@ nav h3{
 .small{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
 }
 .small-div{
     display: flex;
@@ -131,4 +132,88 @@ nav h3{
     color: rgb(180, 179, 179);
     font-size: 15px;
     margin: 0 0 10px 0;
+}
+@media all and (max-width:1200px){
+    .head{
+        padding:15px 15px;
+    }
+    .grey{
+        padding: 100px 100px 50px 100px;
+    }
+}
+@media all and (max-width:850px){
+    nav{
+        padding: 0 0 10px 0;
+    }
+    ul{
+        padding: 0;
+    }
+    .small P{
+        padding: 0 50px;
+    }
+}
+@media all and (max-width:750px){
+    .head h2{
+        font-size: 15px;
+    }
+    ul li{
+        margin:0 10px 0 0 ;
+    }
+    .paragraph{
+        margin: auto;
+        width: 40%;
+    }
+    .paragraph h1{
+        font-size: 25px;
+    }
+}   
+    @media all and (max-width: 1200px){
+    .grey {
+         padding: 0;
+    }
+
+
+}
+@media all and (max-width:650px){
+    ul{
+        width: 100%;
+        margin: 0 20% 5px 20%;
+    }
+    .head h2{
+        width: 100%;
+        text-align: center;
+    }
+    .head h3{
+        width: 100%;
+        text-align: center;
+    }
+    .small{
+        padding: 0;
+    }
+    .small P{
+        padding: 0 5px; 
+    } 
+}
+@media all and (max-width:400px){
+    .paragraph{
+        width: 100%;
+    }
+    .paragraph h1{
+        font-size:20px;
+    }
+    .paragraph p{
+        margin: 0 0 5px 0;
+    }
+    .small h4{
+        margin:0;
+    }
+    .small p{
+        font-size: 10px;
+    }
+    .course p{
+        padding: 0;
+    }
+    .copter h1{
+        font-size: 15px;
+    }
 }
