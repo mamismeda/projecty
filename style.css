@@ -221,9 +221,12 @@ nav h3{
         font-size: 15px;
     }
 }
+
+/* SCHEDULE SECTION START */
+
 .schedule{
     text-align: center;
-    margin: 0 0 50px 0;
+    margin: 0 0 25px 0;
     padding: 100px 250px 50px 250px;
     display: flex;
     flex-wrap: wrap;
@@ -253,7 +256,7 @@ nav h3{
 }
 .simpson{
     width: 15%;
-    padding: 20px;
+    padding: 10px;
 }
 .simpson img{
     width: 100%;
@@ -321,3 +324,79 @@ ol span{
         padding: 0;
     }
 }
+@media all and (max-width:500px){
+    .schedule-div{
+        margin: 0 0 10px 0;
+    }
+    .schedule-div h1{
+        margin: 0;
+        font-size: 20px;
+    }
+    .schedule-div p{
+        padding: 0 20px;
+    }
+    .simspon-div{
+        padding: 5px;
+        width: 70%;
+    }
+    .simspon-div h2{
+        font-size: 1rem;
+    }
+    .simpon{
+        padding: 0;
+        width: 30%;
+    }
+    .pilots{
+        width: 100%;
+    }
+    .calendar{
+        width: 100%;
+    }
+}
+/* SCHEDULE SECTION END */
+
+/* GALLERY SECTION START */
+
+.gallery-sect{
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+.gallery{
+    margin: 0 0 25px 0;
+    padding: 0 250px 0 250px;
+}
+.gallery h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+.gallery p{
+    color: rgb(167, 163, 163);
+    padding: 0 100px;
+    width: 100%;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pictures > * {
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+}
+.pictures > * img{
+    width: 100%;
+}
+@media all and (max-width:900px){
+    .gallery-sect{
+        padding: 0 0 50px 0;
+    }
+    .gallery{
+        padding: 0;
+    }
+    .gallery p{
+        padding: 0;
+    }
+}
+/* GALLERY SACTION END */
