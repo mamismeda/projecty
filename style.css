@@ -360,6 +360,7 @@ ol span{
 .gallery-sect{
     padding: 100px 0 50px 0;
     text-align: center;
+    margin: 0 0 25px 0;
 }
 .gallery{
     margin: 0 0 25px 0;
@@ -400,3 +401,80 @@ ol span{
     }
 }
 /* GALLERY SACTION END */
+
+/* LITTLE SECTION START */
+
+.little{
+    background-image: url(https://cdn.pixabay.com/photo/2017/11/10/00/20/riga-2935034_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.little-div{
+    text-align: right;
+    padding: 50px 250px 50px 0;
+}
+.little-div h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.little-div p{
+    color: #fff;
+    margin: 25px 0 25px 0;
+}
+@media all and (max-width:800px){
+    .little-div{
+        padding: 50px 50px 50px 50px;
+    }
+    .little-div h1{
+        font-size:1.5rem;
+    }
+}
+/* LITTLE SECTION END */
+
+/* NEWS SECTION START */
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 100px 0 100px ;
+    background-color: rgb(233, 230, 230);
+}
+.news-div{
+    margin: 0 0 25px 0;
+    width: 100%;
+}
+.news-div h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.first-class{
+    width: 25%;
+    margin: 0 55px 50px 30px;
+    background-color: #fff;
+}
+.first-class img{
+    width: 100%;
+}
+.first-class p{
+    color: rgb(167, 163, 163);
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+    margin: 20px 0 0 0;
+    line-height: 1.5;
+}
+.first-class h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 50px 0 20px;
+    margin: 20px 0 20px 0;
+}
+.first-class a{
+    display: block;
+    margin: 20px 0 0 20px;
+    padding: 10px 30px;
+    width: fit-content;
+    background-color: steelblue;
+}
