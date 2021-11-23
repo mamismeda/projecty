@@ -24,6 +24,10 @@ nav{
     font-family: sans-serif;
     border-bottom: 2px solid rgb(206, 199, 199);
     padding: 0 0 30px 0;
+    transition: all 0.5s linear;
+}
+nav:hover{
+    border-bottom:4px solid steelblue
 }
 ul{
     display: flex;
@@ -33,9 +37,23 @@ ul{
 ul li{
     margin: 0 50px 0 0;
 }
+ul li a{
+    transition:all 0.3s linear;
+}
+ul li a:hover{
+    font-weight: bold;
+    transform: scale(1.5);
+    color: steelblue;
+}
 nav h2{
     width: 20%;
     font-size: 35px;
+    transition: all 0.3s linear;
+}
+nav h2:hover{
+    font-weight: bold;
+    transform: scale(1.2);
+    color: steelblue;
 }
     
 nav h3{
@@ -46,7 +64,10 @@ nav h3{
     color:#fff;
     border: 2px solid #fff;
     padding: 5px 5px;
-    
+    transition: all 0.3s linear;
+}
+#bord:hover{
+    border: 5px double steelblue;
 }
 .paragraph{
     margin: 50px 0;
@@ -67,6 +88,11 @@ nav h3{
     font-size: 12px;
     font-weight: bold;
     padding: 5px 15px;
+    transition: all 0.3s linear;
+}
+#yellow:hover{
+    background-color: black;
+    color: yellow;
 }
 .small{
     display: flex;
@@ -120,9 +146,11 @@ nav h3{
 .copter{
     width: 33.33%;
     background-color: #fff;
+    border-radius: 30px;
 }
 .copter img{
     width: 100%;
+    border-radius: 30px 30px 0 0;
 }
 .copter h1{
     text-align: center;
@@ -413,6 +441,10 @@ ol span{
 .little-div{
     text-align: right;
     padding: 50px 250px 50px 0;
+    transition: all 0.4s linear;
+}
+.little-div:hover{
+    padding: 100px 250px 100px 0;
 }
 .little-div h1{
     font-size: 2.5rem;
@@ -479,14 +511,26 @@ ol span{
     padding: 10px 30px;
     width: fit-content;
     background-color: steelblue;
+    transition: all 0.5s linear;
+}
+.first-class a:hover{
+    transform: scale(1.2);
 }
 #bubble{
     position: absolute;
     bottom: 150px;
+    transition: all 0.5s linear;
+}
+#bubble:hover{
+    transform: scale(1.2);
 }
 #gum{
     position: absolute;
     bottom: 25px;
+    transition: all 0.5s linear;
+}
+#gum:hover{
+    transform: scale(1.2);
 }
 @media all and (max-width:1220px){
     .first-class{
@@ -635,7 +679,12 @@ footer{
     height: 30px;
     text-decoration: none;
     border-radius: 50%;
+    transition: all 0.4s linear;
 }
+.fa:hover{
+    transform: scale(0.7);
+}
+
 .tele{
     color: yellow;
 }
